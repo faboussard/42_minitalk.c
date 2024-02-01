@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "minitalk::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-minitalk-Debug-829b9eb0622ffd116956.json",
+					"jsonFile" : "target-minitalk-Debug-54622d49bb4829ece75e.json",
 					"name" : "minitalk",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/fanny/Bureau/coding/minitalk/cmake-build-debug",
-		"source" : "/home/fanny/Bureau/coding/minitalk"
+		"build" : "/home/fanny/minitalk/cmake-build-debug",
+		"source" : "/home/fanny/minitalk"
 	},
 	"version" : 
 	{

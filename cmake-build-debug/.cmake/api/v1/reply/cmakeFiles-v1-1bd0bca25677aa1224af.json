@@ -405,8 +405,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/fanny/Bureau/coding/minitalk/cmake-build-debug",
-		"source" : "/home/fanny/Bureau/coding/minitalk"
+		"build" : "/home/fanny/minitalk/cmake-build-debug",
+		"source" : "/home/fanny/minitalk"
 	},
 	"version" : 
 	{

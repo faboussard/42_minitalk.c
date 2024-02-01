@@ -3,4 +3,63 @@ project(minitalk C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(minitalk main.c)
+include_directories(ft_client)
+include_directories(ft_server)
+include_directories(libft)
+include_directories(libft/inc)
+
+add_executable(minitalk
+        ft_client/client.c
+        ft_client/client.h
+        ft_server/server.c
+        ft_server/server.h
+        ft_server/utils.c
+        libft/inc/libft.h
+        libft/src/ft_is/ft_isalnum.c
+        libft/src/ft_is/ft_isalpha.c
+        libft/src/ft_is/ft_isascii.c
+        libft/src/ft_is/ft_isdigit.c
+        libft/src/ft_is/ft_isprint.c
+        libft/src/ft_lst/ft_lstadd_back.c
+        libft/src/ft_lst/ft_lstadd_front.c
+        libft/src/ft_lst/ft_lstclear.c
+        libft/src/ft_lst/ft_lstdelone.c
+        libft/src/ft_lst/ft_lstiter.c
+        libft/src/ft_lst/ft_lstlast.c
+        libft/src/ft_lst/ft_lstmap.c
+        libft/src/ft_lst/ft_lstnew.c
+        libft/src/ft_lst/ft_lstsize.c
+        libft/src/ft_mem/ft_bzero.c
+        libft/src/ft_mem/ft_calloc.c
+        libft/src/ft_mem/ft_memchr.c
+        libft/src/ft_mem/ft_memcmp.c
+        libft/src/ft_mem/ft_memcpy.c
+        libft/src/ft_mem/ft_memmove.c
+        libft/src/ft_mem/ft_memset.c
+        libft/src/ft_printf/ft_printf.c
+        libft/src/ft_printf/numbers_functions.c
+        libft/src/ft_printf/strings_functions.c
+        libft/src/ft_put/ft_putchar_fd.c
+        libft/src/ft_put/ft_putendl_fd.c
+        libft/src/ft_put/ft_putnbr_fd.c
+        libft/src/ft_put/ft_putstr_fd.c
+        libft/src/ft_str/ft_split.c
+        libft/src/ft_str/ft_strchr.c
+        libft/src/ft_str/ft_strdup.c
+        libft/src/ft_str/ft_striteri.c
+        libft/src/ft_str/ft_strjoin.c
+        libft/src/ft_str/ft_strlcat.c
+        libft/src/ft_str/ft_strlcpy.c
+        libft/src/ft_str/ft_strlen.c
+        libft/src/ft_str/ft_strmapi.c
+        libft/src/ft_str/ft_strncmp.c
+        libft/src/ft_str/ft_strnstr.c
+        libft/src/ft_str/ft_strrchr.c
+        libft/src/ft_str/ft_strtrim.c
+        libft/src/ft_str/ft_substr.c
+        libft/src/ft_to/ft_atoi.c
+        libft/src/ft_to/ft_atol.c
+        libft/src/ft_to/ft_itoa.c
+        libft/src/ft_to/ft_tolower.c
+        libft/src/ft_to/ft_toupper.c
+        main.c)
