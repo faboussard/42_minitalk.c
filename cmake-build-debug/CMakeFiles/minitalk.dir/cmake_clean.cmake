@@ -47,6 +47,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o.d"
   "CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o"
   "CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o.d"
+  "CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o"
+  "CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o.d"
   "CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o"
   "CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o.d"
   "CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o"

@@ -165,6 +165,9 @@
 		<Unit filename="/home/faboussa/minitalk/libft/src/ft_mem/ft_memset.c">
 			<Option target="minitalk"/>
 		</Unit>
+		<Unit filename="/home/faboussa/minitalk/libft/src/ft_mem/ft_realloc.c">
+			<Option target="minitalk"/>
+		</Unit>
 		<Unit filename="/home/faboussa/minitalk/libft/src/ft_printf/ft_printf.c">
 			<Option target="minitalk"/>
 		</Unit>

@@ -705,6 +705,30 @@ libft/src/ft_mem/ft_memset.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.s
 .PHONY : libft/src/ft_mem/ft_memset.c.s
 
+libft/src/ft_mem/ft_realloc.o: libft/src/ft_mem/ft_realloc.c.o
+.PHONY : libft/src/ft_mem/ft_realloc.o
+
+# target to build an object file
+libft/src/ft_mem/ft_realloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o
+.PHONY : libft/src/ft_mem/ft_realloc.c.o
+
+libft/src/ft_mem/ft_realloc.i: libft/src/ft_mem/ft_realloc.c.i
+.PHONY : libft/src/ft_mem/ft_realloc.i
+
+# target to preprocess a source file
+libft/src/ft_mem/ft_realloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.i
+.PHONY : libft/src/ft_mem/ft_realloc.c.i
+
+libft/src/ft_mem/ft_realloc.s: libft/src/ft_mem/ft_realloc.c.s
+.PHONY : libft/src/ft_mem/ft_realloc.s
+
+# target to generate assembly for a file
+libft/src/ft_mem/ft_realloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.s
+.PHONY : libft/src/ft_mem/ft_realloc.c.s
+
 libft/src/ft_printf/ft_printf.o: libft/src/ft_printf/ft_printf.c.o
 .PHONY : libft/src/ft_printf/ft_printf.o
 
@@ -1434,6 +1458,9 @@ help:
 	@echo "... libft/src/ft_mem/ft_memset.o"
 	@echo "... libft/src/ft_mem/ft_memset.i"
 	@echo "... libft/src/ft_mem/ft_memset.s"
+	@echo "... libft/src/ft_mem/ft_realloc.o"
+	@echo "... libft/src/ft_mem/ft_realloc.i"
+	@echo "... libft/src/ft_mem/ft_realloc.s"
 	@echo "... libft/src/ft_printf/ft_printf.o"
 	@echo "... libft/src/ft_printf/ft_printf.i"
 	@echo "... libft/src/ft_printf/ft_printf.s"

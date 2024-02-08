@@ -62,4 +62,5 @@ add_executable(minitalk
         libft/src/ft_to/ft_itoa.c
         libft/src/ft_to/ft_tolower.c
         libft/src/ft_to/ft_toupper.c
-        main.c)
+        main.c
+        libft/src/ft_mem/ft_realloc.c)
