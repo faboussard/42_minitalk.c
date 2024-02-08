@@ -60,26 +60,26 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -fcolor-diagnostics"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/fanny/minitalk/ft_client"
+					"path" : "/home/faboussa/minitalk/ft_client"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/fanny/minitalk/ft_server"
+					"path" : "/home/faboussa/minitalk/ft_server"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/fanny/minitalk/libft"
+					"path" : "/home/faboussa/minitalk/libft"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/fanny/minitalk/libft/inc"
+					"path" : "/home/faboussa/minitalk/libft/inc"
 				}
 			],
 			"language" : "C",

@@ -14,7 +14,6 @@ SRCS=src/ft_is/ft_isalnum.c\
 	    src/ft_lst/ft_lstmap.c\
 	    src/ft_lst/ft_lstnew.c\
 	    src/ft_lst/ft_lstsize.c\
-	    src/ft_lst/ft_lstbeforelast.c\
 	    src/ft_mem/ft_bzero.c\
 	    src/ft_mem/ft_calloc.c\
 	    src/ft_mem/ft_memchr.c\
@@ -48,7 +47,6 @@ SRCS=src/ft_is/ft_isalnum.c\
 	    src/ft_to/ft_itoa.c\
 	    src/ft_to/ft_tolower.c\
 	    src/ft_to/ft_toupper.c\
-	    src/ft_lst/ft_lst_create_and_add.c\
 
 DIR_INCS		=	inc/
 DIR_OBJS		=	.objs/
