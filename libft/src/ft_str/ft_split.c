@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "../../inc/libft.h"
-#include <stdlib.h>
 
 static void	*ft_free_all_alloc(char **strs_array, size_t start)
 {

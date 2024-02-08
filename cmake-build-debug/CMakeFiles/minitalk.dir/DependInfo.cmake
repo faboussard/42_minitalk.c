@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/faboussa/minitalk/ft_client/client.c" "CMakeFiles/minitalk.dir/ft_client/client.c.o" "gcc" "CMakeFiles/minitalk.dir/ft_client/client.c.o.d"
   "/home/faboussa/minitalk/ft_server/server.c" "CMakeFiles/minitalk.dir/ft_server/server.c.o" "gcc" "CMakeFiles/minitalk.dir/ft_server/server.c.o.d"
-  "/home/faboussa/minitalk/ft_server/utils.c" "CMakeFiles/minitalk.dir/ft_server/utils.c.o" "gcc" "CMakeFiles/minitalk.dir/ft_server/utils.c.o.d"
   "/home/faboussa/minitalk/libft/src/ft_is/ft_isalnum.c" "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o.d"
   "/home/faboussa/minitalk/libft/src/ft_is/ft_isalpha.c" "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o.d"
   "/home/faboussa/minitalk/libft/src/ft_is/ft_isascii.c" "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o.d"
@@ -42,6 +41,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/faboussa/minitalk/libft/src/ft_put/ft_putstr_fd.c" "CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o.d"
   "/home/faboussa/minitalk/libft/src/ft_str/ft_split.c" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o.d"
   "/home/faboussa/minitalk/libft/src/ft_str/ft_strchr.c" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o.d"
+  "/home/faboussa/minitalk/libft/src/ft_str/ft_strcmp.c" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o.d"
   "/home/faboussa/minitalk/libft/src/ft_str/ft_strdup.c" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o.d"
   "/home/faboussa/minitalk/libft/src/ft_str/ft_striteri.c" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o.d"
   "/home/faboussa/minitalk/libft/src/ft_str/ft_strjoin.c" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o" "gcc" "CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o.d"

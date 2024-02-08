@@ -97,24 +97,10 @@ CMakeFiles/minitalk.dir/ft_server/server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/minitalk.dir/ft_server/server.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/faboussa/minitalk/ft_server/server.c -o CMakeFiles/minitalk.dir/ft_server/server.c.s
 
-CMakeFiles/minitalk.dir/ft_server/utils.c.o: CMakeFiles/minitalk.dir/flags.make
-CMakeFiles/minitalk.dir/ft_server/utils.c.o: /home/faboussa/minitalk/ft_server/utils.c
-CMakeFiles/minitalk.dir/ft_server/utils.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minitalk.dir/ft_server/utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/ft_server/utils.c.o -MF CMakeFiles/minitalk.dir/ft_server/utils.c.o.d -o CMakeFiles/minitalk.dir/ft_server/utils.c.o -c /home/faboussa/minitalk/ft_server/utils.c
-
-CMakeFiles/minitalk.dir/ft_server/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/minitalk.dir/ft_server/utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/faboussa/minitalk/ft_server/utils.c > CMakeFiles/minitalk.dir/ft_server/utils.c.i
-
-CMakeFiles/minitalk.dir/ft_server/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/minitalk.dir/ft_server/utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/faboussa/minitalk/ft_server/utils.c -o CMakeFiles/minitalk.dir/ft_server/utils.c.s
-
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o: /home/faboussa/minitalk/libft/src/ft_is/ft_isalnum.c
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o -c /home/faboussa/minitalk/libft/src/ft_is/ft_isalnum.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o: /home/faboussa/minitalk/libft/src/ft_is/ft_isalpha.c
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o -c /home/faboussa/minitalk/libft/src/ft_is/ft_isalpha.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o: /home/faboussa/minitalk/libft/src/ft_is/ft_isascii.c
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o -c /home/faboussa/minitalk/libft/src/ft_is/ft_isascii.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.o: /home/faboussa/minitalk/libft/src/ft_is/ft_isdigit.c
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.o -c /home/faboussa/minitalk/libft/src/ft_is/ft_isdigit.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.i: cmake_force
@@ -170,7 +156,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isdigit.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.o: /home/faboussa/minitalk/libft/src/ft_is/ft_isprint.c
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.o -c /home/faboussa/minitalk/libft/src/ft_is/ft_isprint.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isprint.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstadd_back.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstadd_back.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.i: cmake_force
@@ -198,7 +184,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_back.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstadd_front.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstadd_front.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.i: cmake_force
@@ -212,7 +198,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstadd_front.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstclear.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstclear.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.i: cmake_force
@@ -226,7 +212,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstclear.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstdelone.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstdelone.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.i: cmake_force
@@ -240,7 +226,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstdelone.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstiter.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstiter.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.i: cmake_force
@@ -254,7 +240,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstiter.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstlast.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstlast.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.i: cmake_force
@@ -268,7 +254,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstlast.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstmap.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstmap.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.i: cmake_force
@@ -282,7 +268,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstmap.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstnew.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstnew.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.i: cmake_force
@@ -296,7 +282,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstnew.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.o: /home/faboussa/minitalk/libft/src/ft_lst/ft_lstsize.c
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.o -c /home/faboussa/minitalk/libft/src/ft_lst/ft_lstsize.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.i: cmake_force
@@ -310,7 +296,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_lst/ft_lstsize.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.o: /home/faboussa/minitalk/libft/src/ft_mem/ft_bzero.c
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.o -c /home/faboussa/minitalk/libft/src/ft_mem/ft_bzero.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.i: cmake_force
@@ -324,7 +310,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_bzero.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.o: /home/faboussa/minitalk/libft/src/ft_mem/ft_calloc.c
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.o -c /home/faboussa/minitalk/libft/src/ft_mem/ft_calloc.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.i: cmake_force
@@ -338,7 +324,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_calloc.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.o: /home/faboussa/minitalk/libft/src/ft_mem/ft_memchr.c
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.o -c /home/faboussa/minitalk/libft/src/ft_mem/ft_memchr.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.i: cmake_force
@@ -352,7 +338,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memchr.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.o: /home/faboussa/minitalk/libft/src/ft_mem/ft_memcmp.c
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.o -c /home/faboussa/minitalk/libft/src/ft_mem/ft_memcmp.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.i: cmake_force
@@ -366,7 +352,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcmp.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.o: /home/faboussa/minitalk/libft/src/ft_mem/ft_memcpy.c
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.o -c /home/faboussa/minitalk/libft/src/ft_mem/ft_memcpy.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.i: cmake_force
@@ -380,7 +366,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memcpy.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o: /home/faboussa/minitalk/libft/src/ft_mem/ft_memmove.c
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.o -c /home/faboussa/minitalk/libft/src/ft_mem/ft_memmove.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.i: cmake_force
@@ -394,7 +380,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memmove.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o: /home/faboussa/minitalk/libft/src/ft_mem/ft_memset.c
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.o -c /home/faboussa/minitalk/libft/src/ft_mem/ft_memset.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.i: cmake_force
@@ -408,7 +394,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_memset.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o: /home/faboussa/minitalk/libft/src/ft_printf/ft_printf.c
 CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.o -c /home/faboussa/minitalk/libft/src/ft_printf/ft_printf.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.i: cmake_force
@@ -422,7 +408,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_printf/ft_printf.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o: /home/faboussa/minitalk/libft/src/ft_printf/numbers_functions.c
 CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.o -c /home/faboussa/minitalk/libft/src/ft_printf/numbers_functions.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.i: cmake_force
@@ -436,7 +422,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_printf/numbers_functions.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.o: /home/faboussa/minitalk/libft/src/ft_printf/strings_functions.c
 CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.o -c /home/faboussa/minitalk/libft/src/ft_printf/strings_functions.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.i: cmake_force
@@ -450,7 +436,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_printf/strings_functions.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.o: /home/faboussa/minitalk/libft/src/ft_put/ft_putchar_fd.c
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.o -c /home/faboussa/minitalk/libft/src/ft_put/ft_putchar_fd.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.i: cmake_force
@@ -464,7 +450,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putchar_fd.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.o: /home/faboussa/minitalk/libft/src/ft_put/ft_putendl_fd.c
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.o -c /home/faboussa/minitalk/libft/src/ft_put/ft_putendl_fd.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.i: cmake_force
@@ -478,7 +464,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putendl_fd.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.o: /home/faboussa/minitalk/libft/src/ft_put/ft_putnbr_fd.c
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.o -c /home/faboussa/minitalk/libft/src/ft_put/ft_putnbr_fd.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.i: cmake_force
@@ -492,7 +478,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putnbr_fd.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o: /home/faboussa/minitalk/libft/src/ft_put/ft_putstr_fd.c
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.o -c /home/faboussa/minitalk/libft/src/ft_put/ft_putstr_fd.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.i: cmake_force
@@ -506,7 +492,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_put/ft_putstr_fd.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_split.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_split.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.i: cmake_force
@@ -520,7 +506,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_split.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strchr.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strchr.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.i: cmake_force
@@ -534,7 +520,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strdup.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strdup.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.i: cmake_force
@@ -548,7 +534,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strdup.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_striteri.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_striteri.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.i: cmake_force
@@ -562,7 +548,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_striteri.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strjoin.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strjoin.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.i: cmake_force
@@ -576,7 +562,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strjoin.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strlcat.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strlcat.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.i: cmake_force
@@ -590,7 +576,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcat.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strlcpy.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strlcpy.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.i: cmake_force
@@ -604,7 +590,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlcpy.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strlen.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strlen.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.i: cmake_force
@@ -618,7 +604,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strlen.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strmapi.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strmapi.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.i: cmake_force
@@ -632,7 +618,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strmapi.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strncmp.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strncmp.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.i: cmake_force
@@ -646,7 +632,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strncmp.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strnstr.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strnstr.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.i: cmake_force
@@ -660,7 +646,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strnstr.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strrchr.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strrchr.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.i: cmake_force
@@ -674,7 +660,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strrchr.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strtrim.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strtrim.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.i: cmake_force
@@ -688,7 +674,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strtrim.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_substr.c
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_substr.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.i: cmake_force
@@ -702,7 +688,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_str/ft_substr.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.o: /home/faboussa/minitalk/libft/src/ft_to/ft_atoi.c
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.o -c /home/faboussa/minitalk/libft/src/ft_to/ft_atoi.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.i: cmake_force
@@ -716,7 +702,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atoi.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.o: /home/faboussa/minitalk/libft/src/ft_to/ft_atol.c
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.o -c /home/faboussa/minitalk/libft/src/ft_to/ft_atol.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.i: cmake_force
@@ -730,7 +716,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_to/ft_atol.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.o: /home/faboussa/minitalk/libft/src/ft_to/ft_itoa.c
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.o -c /home/faboussa/minitalk/libft/src/ft_to/ft_itoa.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.i: cmake_force
@@ -744,7 +730,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_to/ft_itoa.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o: /home/faboussa/minitalk/libft/src/ft_to/ft_tolower.c
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o -c /home/faboussa/minitalk/libft/src/ft_to/ft_tolower.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.i: cmake_force
@@ -758,7 +744,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o: /home/faboussa/minitalk/libft/src/ft_to/ft_toupper.c
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o -c /home/faboussa/minitalk/libft/src/ft_to/ft_toupper.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.i: cmake_force
@@ -772,7 +758,7 @@ CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.s: cmake_force
 CMakeFiles/minitalk.dir/main.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/main.c.o: /home/faboussa/minitalk/main.c
 CMakeFiles/minitalk.dir/main.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/minitalk.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/minitalk.dir/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/main.c.o -MF CMakeFiles/minitalk.dir/main.c.o.d -o CMakeFiles/minitalk.dir/main.c.o -c /home/faboussa/minitalk/main.c
 
 CMakeFiles/minitalk.dir/main.c.i: cmake_force
@@ -786,7 +772,7 @@ CMakeFiles/minitalk.dir/main.c.s: cmake_force
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o: CMakeFiles/minitalk.dir/flags.make
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o: /home/faboussa/minitalk/libft/src/ft_mem/ft_realloc.c
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o -c /home/faboussa/minitalk/libft/src/ft_mem/ft_realloc.c
 
 CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.i: cmake_force
@@ -797,11 +783,24 @@ CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/faboussa/minitalk/libft/src/ft_mem/ft_realloc.c -o CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.s
 
+CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o: CMakeFiles/minitalk.dir/flags.make
+CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o: /home/faboussa/minitalk/libft/src/ft_str/ft_strcmp.c
+CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o: CMakeFiles/minitalk.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o -MF CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o.d -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o -c /home/faboussa/minitalk/libft/src/ft_str/ft_strcmp.c
+
+CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/faboussa/minitalk/libft/src/ft_str/ft_strcmp.c > CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.i
+
+CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/faboussa/minitalk/libft/src/ft_str/ft_strcmp.c -o CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.s
+
 # Object files for target minitalk
 minitalk_OBJECTS = \
 "CMakeFiles/minitalk.dir/ft_client/client.c.o" \
 "CMakeFiles/minitalk.dir/ft_server/server.c.o" \
-"CMakeFiles/minitalk.dir/ft_server/utils.c.o" \
 "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o" \
 "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o" \
 "CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o" \
@@ -850,14 +849,14 @@ minitalk_OBJECTS = \
 "CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o" \
 "CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o" \
 "CMakeFiles/minitalk.dir/main.c.o" \
-"CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o"
+"CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o" \
+"CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o"
 
 # External object files for target minitalk
 minitalk_EXTERNAL_OBJECTS =
 
 minitalk: CMakeFiles/minitalk.dir/ft_client/client.c.o
 minitalk: CMakeFiles/minitalk.dir/ft_server/server.c.o
-minitalk: CMakeFiles/minitalk.dir/ft_server/utils.c.o
 minitalk: CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalnum.c.o
 minitalk: CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isalpha.c.o
 minitalk: CMakeFiles/minitalk.dir/libft/src/ft_is/ft_isascii.c.o
@@ -907,6 +906,7 @@ minitalk: CMakeFiles/minitalk.dir/libft/src/ft_to/ft_tolower.c.o
 minitalk: CMakeFiles/minitalk.dir/libft/src/ft_to/ft_toupper.c.o
 minitalk: CMakeFiles/minitalk.dir/main.c.o
 minitalk: CMakeFiles/minitalk.dir/libft/src/ft_mem/ft_realloc.c.o
+minitalk: CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o
 minitalk: CMakeFiles/minitalk.dir/build.make
 minitalk: CMakeFiles/minitalk.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/faboussa/minitalk/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Linking C executable minitalk"

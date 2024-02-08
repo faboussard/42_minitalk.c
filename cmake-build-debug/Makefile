@@ -177,30 +177,6 @@ ft_server/server.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/ft_server/server.c.s
 .PHONY : ft_server/server.c.s
 
-ft_server/utils.o: ft_server/utils.c.o
-.PHONY : ft_server/utils.o
-
-# target to build an object file
-ft_server/utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/ft_server/utils.c.o
-.PHONY : ft_server/utils.c.o
-
-ft_server/utils.i: ft_server/utils.c.i
-.PHONY : ft_server/utils.i
-
-# target to preprocess a source file
-ft_server/utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/ft_server/utils.c.i
-.PHONY : ft_server/utils.c.i
-
-ft_server/utils.s: ft_server/utils.c.s
-.PHONY : ft_server/utils.s
-
-# target to generate assembly for a file
-ft_server/utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/ft_server/utils.c.s
-.PHONY : ft_server/utils.c.s
-
 libft/src/ft_is/ft_isalnum.o: libft/src/ft_is/ft_isalnum.c.o
 .PHONY : libft/src/ft_is/ft_isalnum.o
 
@@ -945,6 +921,30 @@ libft/src/ft_str/ft_strchr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strchr.c.s
 .PHONY : libft/src/ft_str/ft_strchr.c.s
 
+libft/src/ft_str/ft_strcmp.o: libft/src/ft_str/ft_strcmp.c.o
+.PHONY : libft/src/ft_str/ft_strcmp.o
+
+# target to build an object file
+libft/src/ft_str/ft_strcmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.o
+.PHONY : libft/src/ft_str/ft_strcmp.c.o
+
+libft/src/ft_str/ft_strcmp.i: libft/src/ft_str/ft_strcmp.c.i
+.PHONY : libft/src/ft_str/ft_strcmp.i
+
+# target to preprocess a source file
+libft/src/ft_str/ft_strcmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.i
+.PHONY : libft/src/ft_str/ft_strcmp.c.i
+
+libft/src/ft_str/ft_strcmp.s: libft/src/ft_str/ft_strcmp.c.s
+.PHONY : libft/src/ft_str/ft_strcmp.s
+
+# target to generate assembly for a file
+libft/src/ft_str/ft_strcmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minitalk.dir/build.make CMakeFiles/minitalk.dir/libft/src/ft_str/ft_strcmp.c.s
+.PHONY : libft/src/ft_str/ft_strcmp.c.s
+
 libft/src/ft_str/ft_strdup.o: libft/src/ft_str/ft_strdup.c.o
 .PHONY : libft/src/ft_str/ft_strdup.o
 
@@ -1392,9 +1392,6 @@ help:
 	@echo "... ft_server/server.o"
 	@echo "... ft_server/server.i"
 	@echo "... ft_server/server.s"
-	@echo "... ft_server/utils.o"
-	@echo "... ft_server/utils.i"
-	@echo "... ft_server/utils.s"
 	@echo "... libft/src/ft_is/ft_isalnum.o"
 	@echo "... libft/src/ft_is/ft_isalnum.i"
 	@echo "... libft/src/ft_is/ft_isalnum.s"
@@ -1488,6 +1485,9 @@ help:
 	@echo "... libft/src/ft_str/ft_strchr.o"
 	@echo "... libft/src/ft_str/ft_strchr.i"
 	@echo "... libft/src/ft_str/ft_strchr.s"
+	@echo "... libft/src/ft_str/ft_strcmp.o"
+	@echo "... libft/src/ft_str/ft_strcmp.i"
+	@echo "... libft/src/ft_str/ft_strcmp.s"
 	@echo "... libft/src/ft_str/ft_strdup.o"
 	@echo "... libft/src/ft_str/ft_strdup.i"
 	@echo "... libft/src/ft_str/ft_strdup.s"

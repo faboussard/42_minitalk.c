@@ -13,7 +13,6 @@ add_executable(minitalk
         ft_client/client.h
         ft_server/server.c
         ft_server/server.h
-        ft_server/utils.c
         libft/inc/libft.h
         libft/src/ft_is/ft_isalnum.c
         libft/src/ft_is/ft_isalpha.c
@@ -63,4 +62,5 @@ add_executable(minitalk
         libft/src/ft_to/ft_tolower.c
         libft/src/ft_to/ft_toupper.c
         main.c
-        libft/src/ft_mem/ft_realloc.c)
+        libft/src/ft_mem/ft_realloc.c
+        libft/src/ft_str/ft_strcmp.c)

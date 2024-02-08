@@ -96,9 +96,6 @@
 		<Unit filename="/home/faboussa/minitalk/ft_server/server.h">
 			<Option target="minitalk"/>
 		</Unit>
-		<Unit filename="/home/faboussa/minitalk/ft_server/utils.c">
-			<Option target="minitalk"/>
-		</Unit>
 		<Unit filename="/home/faboussa/minitalk/libft/inc/libft.h">
 			<Option target="minitalk"/>
 		</Unit>
@@ -193,6 +190,9 @@
 			<Option target="minitalk"/>
 		</Unit>
 		<Unit filename="/home/faboussa/minitalk/libft/src/ft_str/ft_strchr.c">
+			<Option target="minitalk"/>
+		</Unit>
+		<Unit filename="/home/faboussa/minitalk/libft/src/ft_str/ft_strcmp.c">
 			<Option target="minitalk"/>
 		</Unit>
 		<Unit filename="/home/faboussa/minitalk/libft/src/ft_str/ft_strdup.c">

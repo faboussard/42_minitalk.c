@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "../../inc/libft.h"
-#include <malloc.h>
 
 t_node	*ft_lstmap(t_node *lst, void *(*f)(void *), void (*del)(void *))
 {

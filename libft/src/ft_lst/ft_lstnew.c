@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "../../inc/libft.h"
-#include  <stdio.h>
 
 t_node	*ft_lstnew(void *content)
 {

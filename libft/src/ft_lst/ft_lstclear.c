@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "../../inc/libft.h"
-#include <stdlib.h>
 
 void	ft_lstclear(t_node **lst, void (*del)(void*))
 {

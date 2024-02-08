@@ -39,6 +39,7 @@ SRCS=src/ft_is/ft_isalnum.c\
 	    src/ft_str/ft_strlen.c\
 	    src/ft_str/ft_strmapi.c\
 	    src/ft_str/ft_strncmp.c\
+	    src/ft_str/ft_strcmp.c\
 	    src/ft_str/ft_strnstr.c\
 	    src/ft_str/ft_strrchr.c\
 	    src/ft_str/ft_strtrim.c\

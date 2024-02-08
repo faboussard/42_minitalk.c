@@ -1,6 +1,6 @@
 #include "client.h"
 
-void	send_bit(const char *message, int pid, size_t message_len)
+void	send_bit(const char *message, pid_t pid, size_t message_len)
 {
 	size_t 		shift;
 	size_t 		size_char_system;
@@ -18,22 +18,21 @@ void	send_bit(const char *message, int pid, size_t message_len)
 			else
 				kill(pid, SIGUSR2);
 			shift++;
-			usleep(300);
+			sleep(3);
 		}
 		i++;
 	}
 }
 
-
 int main()
 //int main(int ac, char **av)
 {
-	int		pid;
+	pid_t		pid;
 	size_t 	message_len;
 	char	*message;
 
-	pid = getpid();
-	message = "Hello";
+	pid = getpid(); // = argv1
+	message = "Hello"; // =argv2
 	message_len = ft_strlen(message);
 	send_bit(message, pid, message_len);
 }
