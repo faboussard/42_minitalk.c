@@ -1,26 +1,29 @@
 #include "../../inc/libft.h"
 
-void	*ft_realloc(void *ptr, unsigned int new_size)
+void    *ft_realloc(void *ptr, unsigned int new_size)
 {
-	char			*new;
-	char			*temp;
-	unsigned int	i;
+	char            *new;
+	char            *temp;
+	unsigned int    i;
 
-	i = 0;
 	if (ptr == NULL)
 	{
 		ptr = malloc(new_size);
-		if (ptr == NULL)
-			return (NULL);
 		return (ptr);
 	}
 	if (new_size == 0)
 		return (free(ptr), NULL);
 	new = malloc(new_size + 1);
 	if (new == NULL)
-		return (free(ptr), NULL);
+		return (NULL);
 	temp = ptr;
+	i = 0;
 	while (i < new_size && temp[i] != '\0')
+	{
+		new[i] = temp[i];
 		i++;
-	return (free(ptr), new);
+	}
+	new[i] = '\0';
+	free(ptr);
+	return (new);
 }
