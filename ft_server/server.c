@@ -5,59 +5,70 @@
 #include <unistd.h>
 #include <signal.h>
 
-volatile sig_atomic_t received = 0;
-
-static void sigusr1_handler(int signum) {
-	received |= 1;
-}
-
-static void sigusr2_handler(int signum) {
-	received |= 0;
-}
-
-void init_sigaction() {
-	struct sigaction sa_usr1, sa_usr2;
-
-	sa_usr1.sa_handler = sigusr1_handler;
-	sigemptyset(&sa_usr1.sa_mask);
-	sa_usr1.sa_flags = 0;
-	sigaction(SIGUSR1, &sa_usr1, NULL);
-
-	sa_usr2.sa_handler = sigusr2_handler;
-	sigemptyset(&sa_usr2.sa_mask);
-	sa_usr2.sa_flags = 0;
-	sigaction(SIGUSR2, &sa_usr2, NULL);
-}
-
-int main() {
-	int count = 0;
-	char *message;
-
+void init_server()
+{
 	ft_printf("Welcome to Fafa's server\n");
 	ft_printf("This server's ID is %d\n", getpid());
 	ft_printf("Server is ready to listen\n");
+}
 
+static void sigusr_handler(int signum)
+{
+	static char received = 0;
+	char *message;
+	int count;
+//	int i =0;
+
+	count = 0;
 	message = malloc(sizeof(char));
-	if (message == NULL) {
-		perror("malloc");
-		return EXIT_FAILURE;
-	}
-	while (1)
+	printf("%lu", sizeof(message));
+	if (message == NULL)
+		return;
+	if (signum == SIGUSR1)
 	{
-		init_sigaction();
-		message[count] = (char)received;
+		write(1, "ok1", 3);
 		count++;
-
-		if (count >= sizeof(char)) {
-			message = realloc(message,  sizeof(char));
-			if (message == NULL) {
-				perror("realloc");
-				return EXIT_FAILURE;
-			}
-		}
-		ft_printf("Message reçu : %c\n", message[count - 1]);
-		received = 0;
+		received |= 1;
 	}
-	free(message);
+	else if (signum == SIGUSR2)
+	{
+		write(1, "ok2", 3);
+		count++;
+		received |= 0;
+	}
+//	if (count == 8)
+//	{
+//		message[i] = received;
+//		received = 0;
+//		message = ft_realloc(message, sizeof(char));
+//		if (message == NULL)
+//			return;
+//		count = 0;
+//		i++;
+//	}
+}
+
+void receive_signals()
+{
+	struct sigaction sa_usr;
+
+	sa_usr.sa_handler = sigusr_handler;
+	sigemptyset(&sa_usr.sa_mask);
+	sa_usr.sa_flags = 0;
+	sigaction(SIGUSR1, &sa_usr, NULL);
+	sigaction(SIGUSR2, &sa_usr, NULL);
+}
+
+int main()
+{
+	char *message;
+	message = malloc(sizeof(char));
+	printf("%lu", sizeof(message));
+	init_server();
+	receive_signals();
+	while (1)
+		pause();
+
+	//si message termine, print tout
 	return 0;
 }

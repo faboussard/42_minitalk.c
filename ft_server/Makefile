@@ -1,7 +1,6 @@
 NAME			=	server
 
 SRCS			=	server.c \
-					utils.c
 
 DIR_INCS		=	./
 DIR_BUILD		=	.build/
@@ -20,6 +19,7 @@ all: $(NAME)
 
 $(NAME): $(LIBFT) $(OBJS)
 		$(CC) $(CFLAGS) -o $(NAME) $(OBJS) -L $(DIR_LIBFT) -lft
+
 
 $(LIBFT): FORCE
 	$(MAKE) -C $(DIR_LIBFT) NAME=$(NAME_LIBFT)

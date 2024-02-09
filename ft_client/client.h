@@ -6,6 +6,6 @@
 # include <signal.h>
 # include <stddef.h>
 # include "../libft/inc/libft.h"
-
+# define _GNU_SOURCE
 
 #endif

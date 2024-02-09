@@ -18,21 +18,22 @@ void	send_bit(const char *message, pid_t pid, size_t message_len)
 			else
 				kill(pid, SIGUSR2);
 			shift++;
-			sleep(3);
+			usleep(1000);
 		}
 		i++;
 	}
 }
 
-int main()
+int main(int ac, char **av)
 //int main(int ac, char **av)
 {
+	ac = 3;
 	pid_t		pid;
 	size_t 	message_len;
 	char	*message;
 
-	pid = getpid(); // = argv1
-	message = "Hello"; // =argv2
+	pid = ft_atoi(av[1]);
+	message = av[2];
 	message_len = ft_strlen(message);
 	send_bit(message, pid, message_len);
 }
