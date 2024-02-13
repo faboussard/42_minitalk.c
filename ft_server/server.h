@@ -8,4 +8,6 @@
 # include "../libft/inc/libft.h"
 #include <stdlib.h>
 
+struct sigaction sa_usr;
+
 #endif
