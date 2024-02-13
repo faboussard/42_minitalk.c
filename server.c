@@ -1,4 +1,4 @@
-#include "server.h"
+#include "server_client.h"
 
 char    *message = NULL;
 
@@ -15,12 +15,12 @@ static void fill_message(char *received, int *i)
     {
         message = malloc(sizeof(char) * 8);
         if (message == NULL)
-            return ;
+            exit(EXIT_FAILURE);
     }
     message[(*i)++] = *received;
     message = ft_realloc(message, *i);
     if (message == NULL)
-        return ;
+        exit(EXIT_FAILURE);
     if (*received == '\0')
     {
         ft_printf("Message received : %s\n", message);

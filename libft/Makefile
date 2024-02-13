@@ -21,7 +21,7 @@ SRCS=src/ft_is/ft_isalnum.c\
 	    src/ft_mem/ft_memcpy.c\
 	    src/ft_mem/ft_memmove.c\
 	    src/ft_mem/ft_memset.c\
-	     src/ft_mem/ft_realloc.c\
+	    src/ft_mem/ft_realloc.c\
 	    src/ft_printf/ft_printf.c\
 	    src/ft_printf/numbers_functions.c\
 	    src/ft_printf/strings_functions.c\

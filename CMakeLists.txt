@@ -9,10 +9,10 @@ include_directories(libft)
 include_directories(libft/inc)
 
 add_executable(minitalk
-        ft_client/client.c
+        client.c
         ft_client/client.h
-        ft_server/server.c
-        ft_server/server.h
+        server.c
+        server_client.h
         libft/inc/libft.h
         libft/src/ft_is/ft_isalnum.c
         libft/src/ft_is/ft_isalpha.c
