@@ -1,6 +1,7 @@
 #include "server_client.h"
+#include "libft/inc/libft.h"
 
-char    *message = NULL;
+char    *g_message = NULL;
 
 void init_server()
 {
@@ -11,22 +12,22 @@ void init_server()
 
 static void fill_message(char *received, int *i)
 {
-    if (message == NULL)
+    if (g_message == NULL)
     {
-        message = malloc(sizeof(char) * 8);
-        if (message == NULL)
+        g_message = malloc(sizeof(char) * 8);
+        if (g_message == NULL)
             exit(EXIT_FAILURE);
     }
-    message[(*i)++] = *received;
-    message = ft_realloc(message, *i);
-    if (message == NULL)
+    g_message[(*i)++] = *received;
+    g_message = ft_realloc(g_message, *i);
+    if (g_message == NULL)
         exit(EXIT_FAILURE);
     if (*received == '\0')
     {
-        ft_printf("Message received : %s\n", message);
+        ft_printf("Message received : %s\n", g_message);
         *i = 0;
-        free(message);
-        message = NULL;
+        free(g_message);
+        g_message = NULL;
     }
 }
 

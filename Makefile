@@ -1,50 +1,45 @@
-SERVER = server
-CLIENT = client
+C_NAME = client
+S_NAME = server
+LIBFT_A  = libft.a
 
-CFLAGS = -Wall -Werror -Wextra
-CC = cc
-FLAGS = -Wall -Wextra -Werror -Ilibft/inc -Llibft -lft
+C_SRC = client.c
+S_SRC = server.c
 
-LIBFT = libft
+C_OBJ = $(C_SRC:%.c=%.o)
+S_OBJ = $(S_SRC:%.c=%.o)
 
-DIR_OBJS = libft/.objs/
+HDR_DIR	  = ./server_client.h
+HDR_LIB	  = ./libft/inc/
+LIBFT_DIR = ./libft
 
-# Liste des fichiers source pour server et client
-SERVER_SRC = server.c
-CLIENT_SRC = client.c
+CFLAGS = -Wall -Wextra -Werror
 
-# Liste des fichiers header dont dépendent les fichiers source
-DEPS = libft.h server_client.h
+all: $(C_NAME) $(S_NAME)
 
-all: $(SERVER) $(CLIENT)
+$(S_NAME): $(S_OBJ) $(LIBFT_A)
+	@$(CC) $(CFLAGS) $(S_OBJ) $(LIBFT_DIR)/$(LIBFT_A) -o $@
 
-# Règle de compilation pour le serveur
-$(SERVER): $(SERVER_SRC:.c=.o) $(LIBFT)
-	@$(CC) $(CFLAGS) $(FLAGS) -o $(SERVER) $(SERVER_SRC:.c=.o)
+$(C_NAME): $(C_OBJ) $(LIBFT_A)
+	@$(CC) $(CFLAGS) $(C_OBJ) $(LIBFT_DIR)/$(LIBFT_A) -o $@
 
-# Règle de compilation pour le client
-$(CLIENT): $(CLIENT_SRC:.c=.o) $(LIBFT)
-	@$(CC) $(CFLAGS) $(FLAGS) -o $(CLIENT) $(CLIENT_SRC:.c=.o)
+%.o: %.c $(HDR_DIR)
+	$(CC) $(CFLAGS) -I ./ -I $(HDR_LIB) -c -o $@ $<
 
-# Règle de compilation des fichiers source
-%.o: %.c $(DEPS)
-	@$(CC) $(CFLAGS) -c $< -o $@ -Ilibft/inc
+$(LIBFT_A): FORCE
+	$(MAKE) -C $(LIBFT_DIR)
 
-# Construction de la librairie libft
-$(LIBFT):
-	@$(MAKE) -C $(LIBFT)
+FORCE :
 
 clean:
-	@$(MAKE) clean -C $(LIBFT)
-	@rm -rf $(DIR_OBJS) $(SERVER_SRC:.c=.o) $(CLIENT_SRC:.c=.o)
+	rm -rf *.o
+	$(MAKE) -C $(LIBFT_DIR) clean
 
 fclean: clean
-	@$(MAKE) fclean -C $(LIBFT)
-	@rm -f $(SERVER) $(CLIENT)
+	rm -f server client
+	$(MAKE) -C $(LIBFT_DIR) fclean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re FORCE
 
-
-
+FORCE:

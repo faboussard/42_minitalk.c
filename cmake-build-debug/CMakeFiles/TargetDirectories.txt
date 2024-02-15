@@ -1,3 +1,0 @@
-/home/faboussa/minitalk/cmake-build-debug/CMakeFiles/minitalk.dir
-/home/faboussa/minitalk/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/faboussa/minitalk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
