@@ -1,10 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_realloc.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: faboussa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/02/15 12:16:37 by faboussa          #+#    #+#             */
+/*   Updated: 2024/02/15 12:16:43 by faboussa         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../../inc/libft.h"
 
-void    *ft_realloc(void *ptr, unsigned int new_size)
+void	*ft_realloc(void *ptr, unsigned int new_size)
 {
-	char            *new;
-	char            *temp;
-	unsigned int    i;
+	char			*new;
+	char			*temp;
+	unsigned int	i;
 
 	if (ptr == NULL)
 	{
